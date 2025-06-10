@@ -20,3 +20,7 @@ This project predicts wind turbine power output based on windspeed using a train
   - Interpolated missing WindSpeed data
   - Trained and saved as `model1.pkl`
 
+
+## 🔗 Live Demo
+
+👉 [Click here to view the live app](https://wind-energy-prediction-jxkgyxjspw8rtyz3xcjham.streamlit.app)
