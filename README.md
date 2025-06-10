@@ -9,4 +9,14 @@ This project predicts wind turbine power output based on windspeed using a train
 - The model learns the relationship between wind speed and energy output and forecasts future energy generation.
 - Adds realistic variability to windspeed using standard deviation
 - Interactive Streamlit interface
-- Forecast displayed as line chart with data export option
+- Forecast displayed as line chart with data export option.
+
+## 🛠️ Model
+
+- **Algorithm:** XGBoost Regressor
+- **Features Used:** Only WindSpeed
+- **Preprocessing:** 
+  - Removed negative ActivePower values
+  - Interpolated missing WindSpeed data
+  - Trained and saved as `model1.pkl`
+
